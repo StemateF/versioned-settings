@@ -56,9 +56,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" />
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
-  <action id="FileChooser.TogglePathShowing" />
-  <action id="GotoFile">
+  <action id="FileChooser.NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="GotoLine" />
@@ -66,6 +73,10 @@
   <action id="IncrementWindowWidth" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextTab" />
   <action id="ParameterInfo" />
