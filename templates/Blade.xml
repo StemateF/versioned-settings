@@ -6,9 +6,15 @@
   </template>
   <template name="bsec" value=" @section('$START$')&#10; $END$&#10; @endsection" description="" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="bif" value="@if($CONDITION$)&#10;$END$&#10;@endif" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
   </template>
   <template name="bfore" value="@foreach($ $ITEMS$ as $ITEM$)&#10;&#10;@endforeach" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ITEMS" expression="complete()" defaultValue="" alwaysStopAt="true" />
