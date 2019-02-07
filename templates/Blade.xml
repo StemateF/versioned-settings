@@ -1,16 +1,16 @@
 <templateSet group="Blade">
-  <template name="bext" value="@extends('$END$')" toReformat="false" toShortenFQNames="true">
+  <template name="bext" value="@extends('$END$')" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="bsec" value=" @section('$START$')&#10; $END$&#10; @endsection" toReformat="false" toShortenFQNames="true">
+  <template name="bsec" value=" @section('$START$')&#10; $END$&#10; @endsection" description="" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="bif" value="@if($CONDITION$)&#10;$END$&#10;@endif" toReformat="false" toShortenFQNames="true">
+  <template name="bif" value="@if($CONDITION$)&#10;$END$&#10;@endif" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="bfore" value="@foreach($ $ITEMS$ as $ITEM$)&#10;&#10;@endforeach" toReformat="false" toShortenFQNames="true">
+  <template name="bfore" value="@foreach($ $ITEMS$ as $ITEM$)&#10;&#10;@endforeach" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ITEMS" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
