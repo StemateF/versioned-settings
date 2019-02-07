@@ -1,0 +1,14 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="darkTitleBar" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="useMaterialFont2" value="true" />
+    <option name="treeFontSize" value="21" />
+    <option name="settingsSelectedTab" value="3" />
+    <option name="userId" value="-2c31f4f3:16893cf6c17:-8000" />
+    <option name="version" value="3.5.0" />
+  </component>
+</application>

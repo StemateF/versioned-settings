@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90e53ab5-afdd-4591-ad7b-445f3de5a2f9" name="rp cms" url="http://www-2019.realpage.site">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
