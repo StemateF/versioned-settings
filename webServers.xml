@@ -1,7 +1,10 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="90e53ab5-afdd-4591-ad7b-445f3de5a2f9" name="rp cms" url="http://www-2019.realpage.site">
+      <webServer id="8c3d7c81-5b8f-4782-8849-77d52f80b999" name="blog" url="http://blog.lo">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="e9424668-47f0-4762-979a-699890f8ba2a" name="doker lock" url="http://room.localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
