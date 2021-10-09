@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/work/personal/main-site/.vuegenerator" value="JSON" />
     <file url="file://$USER_HOME$/work/rpcms/.env" value=".env file" />
     <file url="file://$USER_HOME$/work/rpcms/wp-vendor/.env" value=".env file" />
   </component>
